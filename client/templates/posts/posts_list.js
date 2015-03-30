@@ -1,6 +1,6 @@
 var postsData = [{
     title: 'Introducing Telescope',
-    url: 'http://sachagreif.com/inroducing-telescope'
+    url: 'http://sachagreif.com/inroducing-telescope/'
 }, {
     title: 'Meteor',
     url: 'http://meteor.com'
