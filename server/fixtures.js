@@ -35,8 +35,8 @@ if (Posts.find().count() === 0) {
 
     Comments.insert({
         postId: telescopeId,
-        userId: tom._id,
-        author: tom.profile.name,
+        userId: sacha._id,
+        author: sacha.profile.name,
         submitted: new Date(now - 3 * 3600 * 1000),
         body: 'You sure can Tom!'
     });
@@ -68,7 +68,7 @@ if (Posts.find().count() === 0) {
             author: sacha.profile.name,
             userId: sacha._id,
             url: 'http://google.com/?q=test-' + i,
-            submitted: new Date(now - i * 3600 * 1000),
+            submitted: new Date(now - i * 3600 * 1000 + 1),
             commentsCount: 0,
             upvoters: [],
             votes: 0
